@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Eid Mubarak ! | 2022</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="description" content="Happy eid Mubarak kawand kawand.">
+    <meta name="keywords" content="ramadhan, lebaran, idul fitri, hari raya, mohon maaf">
+    <meta name="author" content="Eka Dharma">
+    <meta property="og:title" content="Happy Eid Mubarak" />
+    <meta property="og:image" itemprop="image" content="https://kigamekun.github.io/IdulFitri2022/assets/vect.png" />
+    <meta property="og:image:url" itemprop="image"
+        content="https://kigamekun.github.io/IdulFitri2022/assets/vect.png" />
+    <meta property="og:image:type" content="image/png" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+
+    <meta property="og:locale" content="id" />
+</head>
+
+<body>
+    <style>
+        body {
+            background: url(assets/ramadhan.png) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        canvas {
+            width: 100vw;
+            height: 550px;
+            cursor: crosshair;
+            display: block;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            outline: none;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+
+        #work {
+            width: 300px;
+            margin: 0 auto;
+            position: relative;
+            top: -20px;
+            -webkit-animation-name: routate;
+            -webkit-animation-duration: 4s;
+            -webkit-animation-iteration-count: infinite;
+            animation-name: routate;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+
+        @-webkit-keyframes routate {
+            0% {
+                -webkit-transform: rotate(7deg);
+                -ms-transform: rotate(7deg);
+                transform: rotate(7deg);
+            }
+
+            50% {
+                -webkit-transform: rotate(-7deg);
+                -ms-transform: rotate(-7deg);
+                transform: rotate(-7deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(7deg);
+                -ms-transform: rotate(7deg);
+                transform: rotate(7deg);
+            }
+        }
+
+        @keyframes routate {
+            0% {
+                -webkit-transform: rotate(7deg);
+                -ms-transform: rotate(7deg);
+                transform: rotate(7deg);
+            }
+
+            50% {
+                -webkit-transform: rotate(-7deg);
+                -ms-transform: rotate(-7deg);
+                transform: rotate(-7deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(7deg);
+                -ms-transform: rotate(7deg);
+                transform: rotate(7deg);
+            }
+        }
+
+        #work #wire {
+            margin: 0 auto;
+            height: 130px;
+            width: 10px;
+            background: #261647;
+            border: 5px #0c032e solid;
+        }
+
+        #work #c1 {
+            position: absolute;
+            z-index: 5;
+            bottom: 0;
+            height: 300px;
+        }
+
+        #work .light {
+            width: 100%;
+            height: 100%;
+            padding: 30px;
+            margin: 0 auto;
+            background: rgba(255, 155, 0, 0.08);
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            border-radius: 100%;
+            -webkit-animation-name: flash;
+            -webkit-animation-duration: 4s;
+            -webkit-animation-iteration-count: infinite;
+            animation-name: flash;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+
+        @-webkit-keyframes flash {
+            0% {
+                background: rgba(255, 155, 0, 0.08);
+            }
+
+            50% {
+                background: rgba(255, 155, 0, 0.04);
+            }
+
+            100% {
+                background: rgba(255, 155, 0, 0.08);
+            }
+        }
+
+        @keyframes flash {
+            0% {
+                background: rgba(255, 155, 0, 0.08);
+            }
+
+            50% {
+                background: rgba(255, 155, 0, 0.04);
+            }
+
+            100% {
+                background: rgba(255, 155, 0, 0.08);
+            }
+        }
+
+        #fanos {
+            height: 380px;
+            padding: 10px;
+            margin: 0 auto;
+            position: relative;
+            top: -20px;
+        }
+
+        #small-circle {
+            margin: 0 auto;
+            width: 30px;
+            height: 30px;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            border-radius: 100%;
+            background: #261647;
+            border: 5px #0c032e solid;
+            position: relative;
+            z-index: 5;
+        }
+
+        #half-circle {
+            width: 120px;
+            height: 120px;
+            position: absolute;
+            top: 25px;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+            z-index: 1;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            border-radius: 100%;
+            background: #40315a;
+            border: 5px #0c032e solid;
+        }
+
+        #bottom-quppa {
+            margin: 0 auto;
+            position: relative;
+            top: 50px;
+            z-index: 3;
+        }
+
+        #line {
+            margin: 0 auto;
+            width: 200px;
+            height: 30px;
+            padding-top: 3px;
+            background: #261647;
+            border: 5px #0c032e solid;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        #line .ball {
+            width: 15px;
+            height: 15px;
+            margin: auto 5px;
+            display: inline-block;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            border-radius: 100%;
+            background: #40315a;
+            border: 5px #0c032e solid;
+        }
+
+        #top-triangle {
+            margin: 0 auto;
+            width: 210px;
+            height: 0;
+            border-left: 25px transparent solid;
+            border-right: 25px transparent solid;
+            border-bottom: 30px #0c032e solid;
+            position: relative;
+            top: -5px;
+        }
+
+        #top-triangle:after {
+            content: '';
+            display: block;
+            position: absolute;
+            z-index: 3;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+            top: 5px;
+            width: 155px;
+            height: 0;
+            border-left: 15px transparent solid;
+            border-right: 15px transparent solid;
+            border-bottom: 20px #40315a solid;
+        }
+
+        #box {
+            width: 170px;
+            margin: 0 auto;
+            height: 180px;
+            background: rgba(255, 255, 255, 0.1);
+            position: relative;
+            top: -10px;
+            z-index: 1;
+            border: 5px #0c032e solid;
+        }
+
+        #box #candel {
+            height: 60px;
+            width: 30px;
+            background: #ffffff;
+            border: 5px #0c032e solid;
+            border-bottom: 0;
+            position: absolute;
+            z-index: 1;
+            left: 65px;
+            bottom: 0;
+        }
+
+        #box #candel:after {
+            content: '';
+            display: block;
+            margin: 0 auto;
+            position: relative;
+            top: -20px;
+            width: 10px;
+            height: 15px;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            border-radius: 100%;
+            background: #ff9b00;
+            border: 5px #0c032e solid;
+        }
+
+        #box #col {
+            margin: 0 auto;
+            width: 90px;
+            height: 170px;
+            border-left: 5px #0c032e solid;
+            border-right: 5px #0c032e solid;
+            position: relative;
+            z-index: 2;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        #final {
+            position: relative;
+            z-index: 4;
+            top: -15px;
+        }
+
+        #last-triangle {
+            margin: 0 auto;
+            width: 245px;
+            height: 0;
+            border-left: 25px transparent solid;
+            border-right: 25px transparent solid;
+            border-bottom: 25px #0c032e solid;
+            position: relative;
+            top: -5px;
+        }
+
+        #last-triangle:after {
+            content: '';
+            display: block;
+            position: absolute;
+            z-index: 3;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+            top: 5px;
+            width: 190px;
+            height: 0;
+            border-left: 15px transparent solid;
+            border-right: 15px transparent solid;
+            border-bottom: 15px #40315a solid;
+        }
+
+        h1 {
+            text-align: center;
+            position: relative;
+            bottom: 20px;
+            font: bold 1.4em/1.6 "Diwani Letter";
+            color: #ff9b00;
+        }
+
+        h2 {
+            text-align: center;
+            position: relative;
+            bottom: 20px;
+            font: bold 1em/1.6 "Diwani Letter";
+            color: #ff9b00;
+        }
+
+        #tidak {
+            display: block;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        /* CSS */
+        .button-4 {
+            appearance: none;
+            background-color: #FAFBFC;
+            border: 1px solid rgba(27, 31, 35, 0.15);
+            border-radius: 6px;
+            box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+            box-sizing: border-box;
+            color: #24292E;
+            cursor: pointer;
+            display: inline-block;
+            font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            list-style: none;
+            padding: 6px 16px;
+            position: relative;
+            transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            vertical-align: middle;
+            white-space: nowrap;
+            word-wrap: break-word;
+        }
+
+        .button-4:hover {
+            background-color: #F3F4F6;
+            text-decoration: none;
+            transition-duration: 0.1s;
+        }
+
+        .button-4:disabled {
+            background-color: #FAFBFC;
+            border-color: rgba(27, 31, 35, 0.15);
+            color: #959DA5;
+            cursor: default;
+        }
+
+        .button-4:active {
+            background-color: #EDEFF2;
+            box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+            transition: none 0s;
+        }
+
+        .button-4:focus {
+            outline: 1px transparent;
+        }
+
+        .button-4:before {
+            display: none;
+        }
+
+        .button-4:-webkit-details-marker {
+            display: none;
+        }
+    </style>
+
+    <!-- setup our canvas element -->
+    <canvas id="canvas"></canvas>
+    <audio autoplay loop>
+        <source src="assets/takbir.mp3">
+    </audio>
+
+    <div id="work" style="position: absolute;left: 0;right: 0;margin-left: auto;margin-right: auto;">
+        <div id="wire"></div>
+        <div id="fanos">
+            <div id="small-circle"></div>
+            <div id="half-circle"></div>
+            <div id="bottom-quppa">
+                <div id="line">
+                    <span class="ball"></span>
+                    <span class="ball"></span>
+                    <span class="ball"></span>
+                    <span class="ball"></span>
+                    <span class="ball"></span>
+                    <span class="ball"></span>
+                    <span class="ball"></span>
+                </div>
+                <div id="top-triangle"></div>
+                <div id="box">
+                    <div id="candel"></div>
+                    <div id="col"></div>
+                </div>
+                <div id="final">
+                    <div id="line"></div>
+                    <div id="last-triangle"></div>
+                </div>
+            </div>
+        </div>
+        <div class="light" id="c1">
+            <div class="light">
+                <div class="light">
+                    <div class="light">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <center>
+        <div>
+            <h1>Selamat Hari Raya Idul Fitri !</h1>
+            <h2>Happy Eid Mubarak ✨🎉</h2>
+            <br>
+            <!-- Set up your HTML -->
+            <div class="owl-carousel" style="color:white;">
+                <div>Minal Aidzin Wal Faidzin, mohon maaf lahir dan batin, yang salah tolong di maafkan dan yang sayang
+                    tolong diungkapkan 🙏🏿🙏🏻🙏</div>
+                <div>Minal Aidzin Wal Faidzin, mohon maaf telah mencintai mu tanpa izin ~ ~</div>
+                <div>Minal Aidzin Wal Faidzin, semoga THR nya banyak yang joki garden 😭</div>
+                <div>Minal Aidzin Wal Faidzin, mau kue atau gue ? 😎</div>
+                <div>Mohon Maaf Lahir dan Batin, Kalau ada salah maafin ya, kalau engga ada salahin aja gapapa</div>
+                <div>Minta THR nya dong kak, all e-wallet 08999400874 ditunggu hehe</div>
+            </div>
+
+            <div style="width: 100%;height: 100px;position: relative;" id="container-button">
+                <h3 style="color: white;margin-bottom: 5px;">Maafin eka yaa ???</h3>
+
+                <button id="iya" class="button-4" style="margin-bottom: 2px;">Iyaa</button>
+
+                <button class="button-4" id="tidak">Engga</button>
+            </div>
+            <br>
+            <h5 style="color: #ff9b00;">Yang cewe gak usah minta maaf soalnya gapernah salah hehe 👌🏻</h5>
+            <br>
+            <h6><a href="https://www.instagram.com/ekadharmaaa/"  style="color: white; text-decoration: none;" target="blank_">@ekadharma</a></h6>
+        </div>
+
+    </center>
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+    $('#iya').click(function () {
+        Swal.fire({
+            title: 'Makasih ya  🥺💜',
+            width: 600,
+            padding: '3em',
+            color: '#716add',
+            background: '#fff',
+            backdrop: `
+    rgba(0,0,123,0.4)
+    url("/assets/nyan_cat.gif")
+    left top
+    no-repeat
+  `
+        })
+    });
+</script>
+<script>
+
+
+    const c = document.querySelector("#container-button");
+    const b = document.querySelector("#tidak");
+
+    function change() {
+        console.log('change');
+        const
+            { width: cWidth, height: cHeight } = c.getBoundingClientRect(),
+            { width: bWidth, height: bHeight } = b.getBoundingClientRect(),
+            i = Math.floor(Math.random() * (cWidth - bWidth)) + 1,
+            j = Math.floor(Math.random() * (cHeight - bHeight)) + 1;
+
+        b.style.left = i + "px";
+        b.style.top = j + "px";
+    }
+
+    b.addEventListener("click", change);
+</script>
+<script>
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+        items: 1,
+        loop: true,
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true
+    });
+    $('.play').on('click', function () {
+        owl.trigger('play.owl.autoplay', [1000])
+    })
+    $('.stop').on('click', function () {
+        owl.trigger('stop.owl.autoplay')
+    })
+</script>
+
+<script>
+    // when animating on canvas, it is best to use requestAnimationFrame instead of setTimeout or setInterval
+    // not supported in all browsers though and sometimes needs a prefix, so we need a shim
+    window.requestAnimFrame = (function () {
+        return window.requestAnimationFrame ||
+            window.webkitRequestAnimationFrame ||
+            window.mozRequestAnimationFrame ||
+            function (callback) {
+                window.setTimeout(callback, 1000 / 60);
+            };
+    })();
+
+    // now we will setup our basic variables for the demo
+    var canvas = document.getElementById('canvas'),
+        ctx = canvas.getContext('2d'),
+        // full screen dimensions
+        cw = window.innerWidth,
+        ch = window.innerHeight,
+        // firework collection
+        fireworks = [],
+        // particle collection
+        particles = [],
+        // starting hue
+        hue = 120,
+        // when launching fireworks with a click, too many get launched at once without a limiter, one launch per 5 loop ticks
+        limiterTotal = 5,
+        limiterTick = 0,
+        // this will time the auto launches of fireworks, one launch per 80 loop ticks
+        timerTotal = 80,
+        timerTick = 0,
+        mousedown = false,
+        // mouse x coordinate,
+        mx,
+        // mouse y coordinate
+        my;
+
+    // set canvas dimensions
+    canvas.width = cw;
+    canvas.height = ch;
+
+    // now we are going to setup our function placeholders for the entire demo
+
+    // get a random number within a range
+    function random(min, max) {
+        return Math.random() * (max - min) + min;
+    }
+
+    // calculate the distance between two points
+    function calculateDistance(p1x, p1y, p2x, p2y) {
+        var xDistance = p1x - p2x,
+            yDistance = p1y - p2y;
+        return Math.sqrt(Math.pow(xDistance, 2) + Math.pow(yDistance, 2));
+    }
+
+    // create firework
+    function Firework(sx, sy, tx, ty) {
+        // actual coordinates
+        this.x = sx;
+        this.y = sy;
+        // starting coordinates
+        this.sx = sx;
+        this.sy = sy;
+        // target coordinates
+        this.tx = tx;
+        this.ty = ty;
+        // distance from starting point to target
+        this.distanceToTarget = calculateDistance(sx, sy, tx, ty);
+        this.distanceTraveled = 0;
+        // track the past coordinates of each firework to create a trail effect, increase the coordinate count to create more prominent trails
+        this.coordinates = [];
+        this.coordinateCount = 3;
+        // populate initial coordinate collection with the current coordinates
+        while (this.coordinateCount--) {
+            this.coordinates.push([this.x, this.y]);
+        }
+        this.angle = Math.atan2(ty - sy, tx - sx);
+        this.speed = 2;
+        this.acceleration = 1.05;
+        this.brightness = random(50, 70);
+        // circle target indicator radius
+        this.targetRadius = 1;
+    }
+
+    // update firework
+    Firework.prototype.update = function (index) {
+        // remove last item in coordinates array
+        this.coordinates.pop();
+        // add current coordinates to the start of the array
+        this.coordinates.unshift([this.x, this.y]);
+
+        // cycle the circle target indicator radius
+        if (this.targetRadius < 8) {
+            this.targetRadius += 0.3;
+        } else {
+            this.targetRadius = 1;
+        }
+
+        // speed up the firework
+        this.speed *= this.acceleration;
+
+        // get the current velocities based on angle and speed
+        var vx = Math.cos(this.angle) * this.speed,
+            vy = Math.sin(this.angle) * this.speed;
+        // how far will the firework have traveled with velocities applied?
+        this.distanceTraveled = calculateDistance(this.sx, this.sy, this.x + vx, this.y + vy);
+
+        // if the distance traveled, including velocities, is greater than the initial distance to the target, then the target has been reached
+        if (this.distanceTraveled >= this.distanceToTarget) {
+            createParticles(this.tx, this.ty);
+            // remove the firework, use the index passed into the update function to determine which to remove
+            fireworks.splice(index, 1);
+        } else {
+            // target not reached, keep traveling
+            this.x += vx;
+            this.y += vy;
+        }
+    }
+
+    // draw firework
+    Firework.prototype.draw = function () {
+        ctx.beginPath();
+        // move to the last tracked coordinate in the set, then draw a line to the current x and y
+        ctx.moveTo(this.coordinates[this.coordinates.length - 1][0], this.coordinates[this.coordinates.length - 1][1]);
+        ctx.lineTo(this.x, this.y);
+        ctx.strokeStyle = 'hsl(' + hue + ', 100%, ' + this.brightness + '%)';
+        ctx.stroke();
+
+        ctx.beginPath();
+        // draw the target for this firework with a pulsing circle
+        ctx.arc(this.tx, this.ty, this.targetRadius, 0, Math.PI * 2);
+        ctx.stroke();
+    }
+
+    // create particle
+    function Particle(x, y) {
+        this.x = x;
+        this.y = y;
+        // track the past coordinates of each particle to create a trail effect, increase the coordinate count to create more prominent trails
+        this.coordinates = [];
+        this.coordinateCount = 5;
+        while (this.coordinateCount--) {
+            this.coordinates.push([this.x, this.y]);
+        }
+        // set a random angle in all possible directions, in radians
+        this.angle = random(0, Math.PI * 2);
+        this.speed = random(1, 10);
+        // friction will slow the particle down
+        this.friction = 0.95;
+        // gravity will be applied and pull the particle down
+        this.gravity = 1;
+        // set the hue to a random number +-50 of the overall hue variable
+        this.hue = random(hue - 50, hue + 50);
+        this.brightness = random(50, 80);
+        this.alpha = 1;
+        // set how fast the particle fades out
+        this.decay = random(0.015, 0.03);
+    }
+
+    // update particle
+    Particle.prototype.update = function (index) {
+        // remove last item in coordinates array
+        this.coordinates.pop();
+        // add current coordinates to the start of the array
+        this.coordinates.unshift([this.x, this.y]);
+        // slow down the particle
+        this.speed *= this.friction;
+        // apply velocity
+        this.x += Math.cos(this.angle) * this.speed;
+        this.y += Math.sin(this.angle) * this.speed + this.gravity;
+        // fade out the particle
+        this.alpha -= this.decay;
+
+        // remove the particle once the alpha is low enough, based on the passed in index
+        if (this.alpha <= this.decay) {
+            particles.splice(index, 1);
+        }
+    }
+
+    // draw particle
+    Particle.prototype.draw = function () {
+        ctx.beginPath();
+        // move to the last tracked coordinates in the set, then draw a line to the current x and y
+        ctx.moveTo(this.coordinates[this.coordinates.length - 1][0], this.coordinates[this.coordinates.length - 1][1]);
+        ctx.lineTo(this.x, this.y);
+        ctx.strokeStyle = 'hsla(' + this.hue + ', 100%, ' + this.brightness + '%, ' + this.alpha + ')';
+        ctx.stroke();
+    }
+
+    // create particle group/explosion
+    function createParticles(x, y) {
+        // increase the particle count for a bigger explosion, beware of the canvas performance hit with the increased particles though
+        var particleCount = 30;
+        while (particleCount--) {
+            particles.push(new Particle(x, y));
+        }
+    }
+
+    // main demo loop
+    function loop() {
+        // this function will run endlessly with requestAnimationFrame
+        requestAnimFrame(loop);
+
+        // increase the hue to get different colored fireworks over time
+        //hue += 0.5;
+
+        // create random color
+        hue = random(0, 360);
+
+        // normally, clearRect() would be used to clear the canvas
+        // we want to create a trailing effect though
+        // setting the composite operation to destination-out will allow us to clear the canvas at a specific opacity, rather than wiping it entirely
+        ctx.globalCompositeOperation = 'destination-out';
+        // decrease the alpha property to create more prominent trails
+        ctx.fillStyle = 'rgba(0, 0, 0, 0.5)';
+        ctx.fillRect(0, 0, cw, ch);
+        // change the composite operation back to our main mode
+        // lighter creates bright highlight points as the fireworks and particles overlap each other
+        ctx.globalCompositeOperation = 'lighter';
+
+        // loop over each firework, draw it, update it
+        var i = fireworks.length;
+        while (i--) {
+            fireworks[i].draw();
+            fireworks[i].update(i);
+        }
+
+        // loop over each particle, draw it, update it
+        var i = particles.length;
+        while (i--) {
+            particles[i].draw();
+            particles[i].update(i);
+        }
+
+        // launch fireworks automatically to random coordinates, when the mouse isn't down
+        if (timerTick >= timerTotal) {
+            if (!mousedown) {
+                // start the firework at the bottom middle of the screen, then set the random target coordinates, the random y coordinates will be set within the range of the top half of the screen
+                fireworks.push(new Firework(cw / 2, ch, random(0, cw), random(0, ch / 2)));
+                timerTick = 0;
+            }
+        } else {
+            timerTick++;
+        }
+
+        // limit the rate at which fireworks get launched when mouse is down
+        if (limiterTick >= limiterTotal) {
+            if (mousedown) {
+                // start the firework at the bottom middle of the screen, then set the current mouse coordinates as the target
+                fireworks.push(new Firework(cw / 2, ch, mx, my));
+                limiterTick = 0;
+            }
+        } else {
+            limiterTick++;
+        }
+    }
+
+    // mouse event bindings
+    // update the mouse coordinates on mousemove
+    canvas.addEventListener('mousemove', function (e) {
+        mx = e.pageX - canvas.offsetLeft;
+        my = e.pageY - canvas.offsetTop;
+    });
+
+    // toggle mousedown state and prevent canvas from being selected
+    canvas.addEventListener('mousedown', function (e) {
+        e.preventDefault();
+        mousedown = true;
+    });
+
+    canvas.addEventListener('mouseup', function (e) {
+        e.preventDefault();
+        mousedown = false;
+    });
+
+    // once the window loads, we are ready for some fireworks!
+    window.onload = loop;
+
+
+</script>
+
+</html>
